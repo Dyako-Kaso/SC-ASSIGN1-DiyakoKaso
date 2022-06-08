@@ -1,0 +1,153 @@
+
+.button {
+  float: right;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  background:Transparent;
+  color: #127D92;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  padding: 10px;
+  font-weight: bold;
+  font-family:"Arial";
+}
+.button:hover { background-color: #ddd;
+ color:#127D92;
+
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  font-family:"Arial";
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 70%;
+  position: relative;
+  transition: all 5s ease-in-out;
+  max-height: 535px;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+
+}
+.popup .close:hover {
+  color: #127D92;
+}
+.popup .content {
+  max-height: 20%;
+  overflow: auto;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+
+
+
+
+#course{
+text-transform: uppercase;
+text-align: center;
+color: black;
+font-size:20px;
+padding: 10px;
+clear:both;
+font-weight: bold;
+}
+
+
+.logo{
+  width: 50%;
+  height: auto;
+  padding: 10px;
+  margin-bottom: 20px;
+  align-content: center;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.information{
+  width: auto;
+  align-content:center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left:auto;
+  margin-right: auto;
+}
+.aboutproject{
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info{
+    padding:10px;
+    margin:10px;
+}
+#one{
+  float:left;
+  margin-left:auto;
+  margin-right: auto;
+  background:white;
+  width:40%;
+  margin-left: 40px;
+  box-shadow: 5px 5px 8px black, 10px 10px 8px #54ABBC, 15px 15px 8px lightblue;
+}
+#two{
+  float:left;
+  margin-left:auto;
+  margin-right: auto;
+  background:white;
+  width:40%;
+  box-shadow: 5px 5px 8px black, 10px 10px 8px #54ABBC, 15px 15px 8px lightblue;
+}
+
+label{
+  color: black;
+  font-size:16px;
+  clear:both;
+  font-weight: bold;
+  margin-left:auto;
+  margin-right: auto;
+}
+a{
+  text-decoration: none;
+}

@@ -1,0 +1,28 @@
+
+	  .searchstyle {
+	    font-size: 16px;
+	    padding: 12px 20px 12px 40px;
+	    border: 1px solid white;
+	    float:right;
+	    margin-right: 170px;
+	    margin-top: 20px;
+	    margin-bottom: 10px;
+	  }
+	  .searchstyle2 {
+      color: white;
+      font-weight: bold;
+	    float:right;
+	    font-size: 16px;
+	    padding: 12px;
+	    border: 1px solid white;
+	    margin-top: 20px;
+	    margin-bottom: 10px;
+      background-color: #407B87;
+	  }
+    .searchstyle2:hover{
+      background-color:  white;
+      color:#407B87;
+    }
+		a{
+		  text-decoration: none;
+		}

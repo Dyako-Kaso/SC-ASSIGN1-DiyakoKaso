@@ -1,0 +1,122 @@
+body {
+  display: grid;
+  grid-template-rows: 15% 80% 5%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.header {
+  grid-column: 1 / 2;
+  grid-row: 1/2;
+  padding: 20px;
+  font-family: "Arial";
+  margin: 0;
+}
+
+.body {
+  grid-column: 1 / 2;
+  grid-row: 2/ 3;
+  background-image: url("../images/lab.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  font-family: "Arial";
+  margin: 0;
+}
+
+.footer {
+  margin: 0;
+  grid-column: 1 / 2;
+  grid-row: 3/4;
+  background-color: white;
+  margin-left: 10px;
+  font-family: "Arial";
+}
+
+.text {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  width: 50%;
+  background-color: rgba(256, 256, 256, 0.8);
+  font-size: 30px;
+  color: #005F72;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+.topnav button {
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  background: Transparent;
+  color: #127D92;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.topnav button:hover {
+  background-color: #ddd;
+  color: #127D92;
+}
+
+#logo {
+  display: block;
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+
+#title {
+  float: left;
+  color: #127D92;
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+
+#list1_btn, #list2_btn {
+  color: white;
+  background-color: #264D55;
+  padding: 30px;
+  margin-top: 10px;
+  font-size: 25px;
+  border: 1px solid white;
+  text-align: center;
+  margin-left: 10px;
+  width: 30%;
+}
+
+#list1_btn {
+  margin-right: 130px;
+}
+
+#list1_btn:hover, #list2_btn:hover {
+  color: white;
+  background-color: #3C7783;
+}
+
+
+.footer p {
+  color: #127D92;
+  padding: 10px;
+  margin-top: 0;
+  display: inline-block;
+
+}
+
+.footer a {
+  text-decoration: none;
+}

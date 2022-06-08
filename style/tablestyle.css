@@ -1,0 +1,83 @@
+
+#itemDetailsTable{  //search
+  border-collapse: collapse;
+  table-layout: fixed;
+  background-color: white;
+  width: 75%;
+  margin-left:auto;
+  margin-right:auto;
+  font-size: 16px;
+  border-spacing: 0;
+}
+ th, td {
+  text-align: left;
+  background-color: white;
+  border:1px solid #127D92;
+  padding: 10px;
+}
+
+#table1{
+border-collapse: collapse;
+table-layout: fixed;
+background-color: white;
+width: 75%;
+margin-left:auto;
+margin-right:auto;
+font-size: 16px;
+padding: 10px;
+}
+a{
+  text-decoration: none;
+}
+
+
+    .pagination a {
+        font-weight:bold;
+        font-size:18px;
+        color: white;
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+        border:1px solid white;
+        margin-top: 10px;
+        background-color: #407B87;
+    }
+    #prev ,#first{
+      margin-left: 130px;
+    }
+
+    .pagination a:hover:not(.active) {
+        background-color:  white;
+        color:#407B87;
+    }
+
+    .add
+      {background-color: #407B87;
+       font-size: 18px;
+       border:1px solid white;
+       padding:15px;
+       margin-left: 170px;
+       margin-top: 15px;
+       margin-bottom: 10px;
+       width: auto;}
+
+    .add a{
+       color:white;
+       text-decoration: none;
+
+    }
+        .add a:hover{
+          color:#407B87;
+        }
+      .add:hover{
+        background-color:  white;
+        color:#407B87;
+      }
+
+      #page{
+        text-align: center;
+        width:100px;
+        color: #407B87;
+        margin-left: 170px;
+        background-color: rgba(256 , 256,256,0.8);
+      }
